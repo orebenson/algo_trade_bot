@@ -1,0 +1,24 @@
+{
+  "account_currency": "GBP",
+  "strategy_name": "strategy1",
+  "pairs": ["EURUSD", "USDCAD", "GBPUSD"],
+  "risk": 1.5,
+  "maxLosses": 4,
+  "takeProfit": 800.0,
+  "stopLoss": 250.0,
+  "maxTime": 3,
+  "movingAverages": {
+    "SMA": {
+      "val": 15,
+      "aboveBelow": "below"
+    },
+    "EMA": {
+      "val": 40,
+      "aboveBelow": "above"
+    }
+  },
+  "maximumDrawdown": 0.7,
+  "initialBalance": 120000,
+  "slippage_enabled": 0,
+  "slippage_probability": 0.3
+}
