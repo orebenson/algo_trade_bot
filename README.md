@@ -1,9 +1,14 @@
 # Algo Bot
+
+## Description
+
+## Features
+- dynamic strategy using json
+- backtester using historical data
+
 ## Setup
 
-# Algo Bot Setup Instructions
-
-To set up the Algo Bot, follow these steps:
+0. Install and setup MetaTrader5 desktop client
 
 1. Create a `keys.py` file and configure it with your account number, password, server, and strategies directory.
 
@@ -41,6 +46,4 @@ source .venv/bin/activate  # For Linux/Mac
 ```bash
 pip install -r requirements.txt
 ```
-
-Now, your Algo Bot setup is complete and ready for use.
 
