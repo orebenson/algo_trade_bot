@@ -1,10 +1,11 @@
 # Algo Bot
 
 ## Description
+A simplistic algorithmic trading bot.
 
 ## Features
-- dynamic strategy using json
-- backtester using historical data
+- dynamic strategy application using json
+- backtest strategies using historical data
 
 ## Setup
 
@@ -47,3 +48,8 @@ source .venv/bin/activate  # For Linux/Mac
 pip install -r requirements.txt
 ```
 
+6. Run the trader:
+
+```bash
+python trader.py <strategy_name>
+```
